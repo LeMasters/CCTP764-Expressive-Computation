@@ -1,0 +1,137 @@
+## CCTP 764:  Expressive Computation  
+
+Fall 2013  
+
+Prof. Garrison LeMasters 
+
+Syllabus 1.0  
+>Modified 12 September 2013
+
+Thursdays, 12:30-3PM  
+CCT Studio, Car Barn  
+
+TA Zhou Jia  
+zj24@georgetown.edu  
+
+## About
+
+This course introduces students to expressive computation through Processing, an open-source, Java-based, cross-platform programming development environment engineered for creative procedural expression. Essentially a robust, object-oriented, extensible programming language, Processing was designed initially by MIT grad students Casey Reas and Ben Fry to help designers, artists, and researchers create visually-rich interactive applications.
+
+In this course, students will gain insight into the nature of code and computation as they design, build, debug, and release new applications every week.
+
+During the second half of the semester, students will focus on designing and building applications reflective of their own interests in expressive computation.  These applications will typically fall into one of two camps:  Data visualization and aesthetic expression.  In both cases, we will make extensive use of public datasets and collaborative coding to create web-accessible projects.
+
+##Requirements
+
+As we will be coding in class, you will need to have a laptop with a working install of Java (Linux, Mac or Windows).
+
+A copy of Processing (at least 2.0b7).
+
+A working GitHub client (see, e.g., mac.github.com)
+
+##Nature of the Undertaking
+
+In order to cover the necessary material, this course will move at a brisk pace.  We will be available to help you outside of class, of course, but most of the difficult work will happen on your own.  That is the nature of the medium.  In order to succeed -- that is, in order to maximize the utility of this course -- students must make coding a daily priority:  Plan on setting aside a minimum of 30 minutes a day to play with new ideas or revisit old ones.  When there is nothing to work on, imagine a task and see to it.  Learning to code, like learning to play the piano or juggle, requires sustained and disciplined effort.  As novice coders, most of this knowledge about coding will be especially fragile, as there is little to anchor these ideas in memory:  If you set Processing aside for a 4-day weekend, for example, it will be surprisingly difficult to pick up where you left off.  Code daily.
+
+## Readings
+
+Academe is a deeply conservative institution.  While professors expect regularly to come to know new things, there is an abiding faith in _the way_ those things will come to be known.  For this reason, even as I ask you to spend hours every week at the IDE, I will occasionally assign some additional reading.  NB that these readings are far shorter and less dense than typical graduate school assignments.
+
+### Required Readings
+
+Bogost, Ian.  "Carpentry."
+
+Graham, Paul.  "Hackers and Painters."
+
+Kirschenbaum, Matthew.  "Hello World."
+
+LeMasters, Garrison.  "Coding and the Ludic."
+
+Thomas, Douglas and John Seely Brown. "Knowing, Making, and Playing."
+
+
+### Suggested Texts
+
+Lidwell, William, Kritina Holden, and Jill Butler.  *Universal Principles of Design*.  Beverly, MA.  Rockport.  2003.
+
+>I strongly suggest that you purchase and make ample use of Lidwell's *Universal Principles of Design*.  To the best of my knowledge, it is a resource without peer.
+
+##Assignments
+
+There will be coding assignments due on a weekly basis.  You will maintain finished code in your GitHub repository.  We will discuss how this works in class.
+
+## Final Project
+
+Your final project will be ambitious and rewarding:  You will use Processing as an instrument of inquiry, and an attempt to answer a research question of your divising.  We will begin to discuss your final project as the mid-semester point nears; for the second half of the semester, you will be given ample time to create, code, debug, and present your work on the final project.  As the time to declare your intentions for the final project nears, I will distribute a document with specific requirements.
+
+
+##Grading
+
+Category | Weight |
+-------- | -----: |
+Class attendance and participation | 25% |
+Weekly sketch assignments & maintenance of GitHub repo | 25% |
+Final project | 50% |
+
+## Schedule
+
+### About this schedule
+This course curriculum is designed to be dynamic and responsive, and will change during the semester.  Please be alert to these changes.
+
+Only the first half of the semester is scheduled in the conventional sense.  The second half of the semester will be devoted to _ad hoc_ workshops and lectures on topics of your choice.  NB that these topics will only become clear as the semester wears on.  We will plan on these as their need becomes clear.
+
+### ZERO // 29 August
+**Topics** The IDE; Reference; Pseudocode; Iteration
+
+### ONE // 5 September
+**Topics** Coordinate system; Primitives; Color; Syntax
+
+### TWO // 12 September
+**Topics** Draw() and Setup(); Arithmetic; Variables; Interaction
+
+>**Due** Using simple shapes, draw and pseudo-code a creature.  Style counts.  The character's details should be visible at 100px by 100px, and it should comprise at least 12 separate shapes.  You will eventually move, animate, and interact with this creature:  Design it with some animated characteristics in mind.  Once you have pseudocoded the creature, build it as a sketch in Processing.
+
+### THREE // 19 September
+**Topics** Conditionals; Randomization; The Matrix
+
+>**Due** Using variables, refactor (change) your code from specifying absolute graphics primitive placements to relative ones.  Make your creature interactive via  the mouse.
+
+>**Read** Graham, Paul.  "Hackers and Painters."
+
+### FOUR // 26 September
+**Topics** Abstraction and Encapsulation; Scope; Custom functions; Passing
+
+>**Due** Randomize the size and/or placement of some aspect of your creature.  Make it move on its own.  Make use of the Matrix stack.
+
+>**Read** Kirschenbaum, Matthew.  "Hello World."
+
+### FIVE // 3 October
+**Topics** I/O; Media; XML; Arrays
+
+>**Due** Add a background to your creature's domain.  Refactor your code so that your creature is a custom function (or bundle of custom functions).  Refactor your code to eliminate as many Global variables as possible.  Make use of passed values where possible.
+
+>**Read** Thomas, Douglas and John Seely Brown. "Knowing, Making, and Playing."
+
+### SIX // 10 October
+**Topics** Special session:  Hackathon
+
+>**Hackathon** This special class session will start earlier and end later than normal -- the extra hours are optional.  Students will select from several coding projects and build a finished application by the end of the session.  We'll provide food.  The approach is meant to simulate (to the degree it is useful) the nature of common coding environments and build requirements.
+
+### SE7EN // 17 October
+**Topic** Objects
+
+>**Due** With a colleague, create an environment that simultaneously displays and animates more than one creature.  Make use of code-sharing facilities on GitHub.
+
+>**Read** LeMasters, Garrison.  "Coding and the Ludic."
+
+### EIGHT // 24 October
+**Topics** Projects and plans; _ad hoc_ workshops
+
+>**Due** Convert your creature to an object with various methods made accessible via user input.
+
+>**Read** Bogost, Ian.  "Carpentry."
+
+### NINE plus //
+**Topics** Various, as determined by class interest.  
+
+>**NB**:  We will decide upon this schedule around week six.  In the past, we've examined topics like embedding Processing in HTML, Processing for the Arduino (hardware kit), game design principles, design thinking, and building simulations with Box2D.
